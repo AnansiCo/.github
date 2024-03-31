@@ -31,7 +31,31 @@ Anansi is a secure and user-friendly crypto wallet designed for the future. It e
 
 ## Architecture Diagram
 
-DIAGRAM
+```mermaid
+sequenceDiagram
+Actor User
+Actor Bundler
+User->>+Bundler: Sends User Operation
+Bundler->>+Entrypoint: Calls handleOps on entrypoint
+loop Verification
+Entrypoint->>+Contract Factory: Create Account if it doesn't exist
+Entrypoint->>+Smart Account: Validate User Operation
+alt With Paymaster
+Entrypoint->>+Entrypoint: Verify paymaster stake
+Entrypoint->>+paymaster: Validate User Operation
+else
+Entrypoint->>+Entrypoint: Verify smart account balance
+Smart Account->>+Entrypoint: Pay max gas
+end
+end
+
+loop Execution
+Entrypoint->>+Smart Account: Call Smart Account
+alt With Paymaster
+Entrypoint->>+Paymaster: Call fee logic on paymaster
+end
+end
+```
 
 ## Project Breakdown:
 
