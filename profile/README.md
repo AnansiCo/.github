@@ -48,9 +48,9 @@ The Anansi wallet is a user-facing application built on top of our [ERC-4337](ht
 ## Project Flow
 
 1. User creates a new wallet using a secure passkey login (no mnemonics needed).
-2. User interacts with the Anansi wallet interface to send and receive crypto on the Botanix blockchain.
-3. Transactions are processed through our ERC-4337 implementation on Botanix, ensuring security and efficiency.
-4. (Future) Users will be able to leverage Anansi's multi-chain support for transactions on additional blockchains.
+2. Each smart account is bound to a unique name which is registered on our smart contracts.
+3. User interacts with the Anansi wallet interface to send and receive crypto on the Botanix blockchain.
+4. Transactions are processed through our ERC-4337 implementation on Botanix, ensuring security and efficiency.
 
 ## Project Highlights
 
