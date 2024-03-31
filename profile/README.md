@@ -15,7 +15,7 @@
 - [Project Flow](#Project-Flow)
 - [Project Highlights](#Project-Highlights)
 - [Technologies Stack](#Technologies-Stack)
-- [Deployed Contracts (Account Abstraction)](#Deployed-Contracts-(Account-Abstraction))
+- [Deployed Contracts (Account Abstraction)](#Deployed-Contracts-Account-Abstraction)
 - [Conclusion](#Conclusion)
 - [Envisioning the Future](#Envisioning-the-Future)
 - [Team](#Team)
@@ -65,11 +65,11 @@ The Anansi wallet is a user-facing application built on top of our ERC-4337 impl
 * Next.js (Front-end development framework)
 
 ## Deployed Contracts (Account Abstraction)
-[Entrypoint](https://blockscout.botanixlabs.dev/address/0x0000000071727De22E5E9d8BAf0edAc6f37da032)
-[Account Factory](https://blockscout.botanixlabs.dev/address/0x4729CCf7a9c43F83A3cdc7B666DBb53adc9cc851)
-[All Inclusive Paymaster](https://blockscout.botanixlabs.dev/address/0xc523FF9698230096d4aDa45D52FA0063E109618D)
+[Entrypoint](https://blockscout.botanixlabs.dev/address/0x0000000071727De22E5E9d8BAf0edAc6f37da032)   
+[Account Factory](https://blockscout.botanixlabs.dev/address/0x4729CCf7a9c43F83A3cdc7B666DBb53adc9cc851)   
+[All Inclusive Paymaster](https://blockscout.botanixlabs.dev/address/0xc523FF9698230096d4aDa45D52FA0063E109618D)   
 
-User operation bundler: [Anansi Bundler](https://bundler.aanansi.xyz/)
+User operation bundler: [Anansi Bundler](https://bundler.aanansi.xyz/)   
 
 ## Conclusion
 
@@ -82,9 +82,9 @@ The Anansi team is committed to continuous innovation. We plan to expand Anansi'
 
 
 ## Team
-[Sam](https://github.com/meisamtaher)
-[Maxg](https://github.com/0xmaxyz)
+[Sam](https://github.com/meisamtaher)   
+[Maxg](https://github.com/0xmaxyz)   
 
 ## Demos
-- [Anansi Wallet](https://aanansi.xyz/)
-- [Youtube](https://youtu.be/xxxxxxxxxxx)
+- [Anansi Wallet](https://aanansi.xyz/)   
+- [Youtube](https://youtu.be/xxxxxxxxxxx)   
