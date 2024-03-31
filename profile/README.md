@@ -1,6 +1,6 @@
 ![Botanix](https://img.shields.io/badge/Botanix-black)
-![Bitcoin](https://img.shields.io/badge/Bitcoin-orange)
 ![SpiderHack](https://img.shields.io/badge/SpiderHack-yellow)
+![Bitcoin](https://img.shields.io/badge/Bitcoin-orange)
 
 <p align="center"><img src="https://github.com/AnansiCo/.github/blob/main/profile/logo.png?raw=true" width="250" height="250"></p>
 
@@ -16,6 +16,7 @@
   - [Anansi Wallet](#Anansi-Wallet)
 - [Project Flow](#Project-Flow)
 - [Project Highlights](#Project-Highlights)
+- [Getting Started](#Getting-started-with-Anansi-Wallet)
 - [Technologies Stack](#Technologies-Stack)
 - [Deployed Contracts (Account Abstraction)](#Deployed-Contracts-Account-Abstraction)
 - [Conclusion](#Conclusion)
@@ -38,11 +39,11 @@ DIAGRAM
 
   ### ERC-4337
 
-Our team implemented the ERC-4337 standard on the Botanix blockchain, enabling advanced features like account abstraction and a smoother user experience.
+Our team implemented the [ERC-4337](https://eips.ethereum.org/EIPS/eip-4337) standard on the Botanix blockchain, enabling advanced account abstraction features and a smoother user experience.
 
 ### Anansi Wallet
 
-The Anansi wallet is a user-facing application built on top of our ERC-4337 implementation. It provides a secure and intuitive interface for users to manage their crypto assets.
+The Anansi wallet is a user-facing application built on top of our [ERC-4337](https://eips.ethereum.org/EIPS/eip-4337) implementation. It provides a secure and intuitive interface for users to manage their crypto assets.
 
 ## Project Flow
 
@@ -57,14 +58,23 @@ The Anansi wallet is a user-facing application built on top of our ERC-4337 impl
 * Gas-free transactions on the Botanix testnet (testnet).
 * Innovative implementation of ERC-4337 on the Botanix blockchain.
 * Multi-chain support planned for future iterations.
+* Simple Name Service to facilitate crypto transactions
 * Recover smart account (Google OAuth 2.0)
 * Modern and minimalistic user interface.
+
+## Getting started with Anansi Wallet
+Ready to explore the future of crypto wallets? Here's how to get started with Anansi:
+
+1. Visit [Anansi Website](https://aanansi.xyz/).
+2. Create a new wallet using a secure passkey login. No need to manage complex mnemonics!
+3. Fund your wallet with your testnet faucet.
+4. Start sending, receiving, and managing your crypto assets with ease.
 
 ## Technologies Stack:
 
 * Solidity (Smart contract development)
-* Turnkey (Secure private key storage)
 * Next.js (Front-end development framework)
+* Turnkey (Secure private key storage)
 
 ## Deployed Contracts (Account Abstraction)
 
