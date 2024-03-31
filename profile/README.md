@@ -24,7 +24,7 @@
 
 ## Overview
 
-Anansi is a secure and user-friendly crypto wallet designed for the future. It eliminates private key management with secure passkey login and offers gas-free transactions (Botanix testnet), simplifying your crypto journey across multiple blockchains. Built on cutting-edge technology, Anansi leverages ERC-4337 standards, showcasing the power of Account Abstraction implemented on the Botanix blockchain (Bitcoin Layer 2).
+Anansi is a secure and user-friendly crypto wallet designed for the future. It eliminates private key management with secure passkey login and offers gas-free transactions (Botanix testnet), simplifying your crypto journey. Built on cutting-edge technology, Anansi leverages ERC-4337 standards, showcasing the power of Account Abstraction implemented on the Botanix blockchain (Bitcoin Layer 2).
 
 ## Architecture Diagram
 
@@ -65,11 +65,14 @@ The Anansi wallet is a user-facing application built on top of our ERC-4337 impl
 * Next.js (Front-end development framework)
 
 ## Deployed Contracts (Account Abstraction)
-[Entrypoint](https://blockscout.botanixlabs.dev/address/0x0000000071727De22E5E9d8BAf0edAc6f37da032)   
-[Account Factory](https://blockscout.botanixlabs.dev/address/0x4729CCf7a9c43F83A3cdc7B666DBb53adc9cc851)   
-[All Inclusive Paymaster](https://blockscout.botanixlabs.dev/address/0xc523FF9698230096d4aDa45D52FA0063E109618D)   
 
-User operation bundler: [Anansi Bundler](https://bundler.aanansi.xyz/)   
+**[Entrypoint - 0x0000000071727De22E5E9d8BAf0edAc6f37da032](https://blockscout.botanixlabs.dev/address/0x0000000071727De22E5E9d8BAf0edAc6f37da032)   
+
+[Account Factory - 0x4729CCf7a9c43F83A3cdc7B666DBb53adc9cc851](https://blockscout.botanixlabs.dev/address/0x4729CCf7a9c43F83A3cdc7B666DBb53adc9cc851)   
+
+[All Inclusive Paymaster - 0xc523FF9698230096d4aDa45D52FA0063E109618D](https://blockscout.botanixlabs.dev/address/0xc523FF9698230096d4aDa45D52FA0063E109618D)**   
+
+**User operation bundler: [Anansi Bundler](https://bundler.aanansi.xyz/) **  
 
 ## Conclusion
 
