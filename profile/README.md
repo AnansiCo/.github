@@ -41,6 +41,14 @@ DIAGRAM
 
 Our team implemented the [ERC-4337](https://eips.ethereum.org/EIPS/eip-4337) standard on the Botanix blockchain, enabling advanced account abstraction features and a smoother user experience.
 
+```mermaid
+flowchart LR
+    A[User Operation] -->B(Anansi Bundler)
+    B -->C(Entry Point)
+    C -->D[Smart Accounts]
+    C -->E(Paymasters)
+```
+
 ### Anansi Wallet
 
 The Anansi wallet is a user-facing application built on top of our [ERC-4337](https://eips.ethereum.org/EIPS/eip-4337) implementation. It provides a secure and intuitive interface for users to manage their crypto assets.
