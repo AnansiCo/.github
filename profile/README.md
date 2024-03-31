@@ -1,12 +1,14 @@
 ![Botanix](https://img.shields.io/badge/Botanix-black)
 ![Bitcoin](https://img.shields.io/badge/Bitcoin-orange)
+![SpiderHack](https://img.shields.io/badge/SpiderHack-yellow)
 
 <p align="center"><img src="https://github.com/AnansiCo/.github/blob/main/profile/logo.png?raw=true" width="250" height="250"></p>
 
 
-## Anansi: The Secure and Seamless Crypto Wallet for the Future
+# Anansi: The Secure and Seamless Crypto Wallet for the Future
 
-# Table of Contents
+
+## Table of Contents
 - [Overview](#Overview)
 - [Architecture Diagram](#Architecture-Diagram)
 - [Project Breakdown](#Project-Breakdown)
@@ -86,7 +88,7 @@ The Anansi team is committed to continuous innovation. We plan to expand Anansi'
 
 ## Team
 [Sam](https://github.com/meisamtaher)   
-[Maxg](https://github.com/0xmaxyz)   
+[Max](https://github.com/0xmaxyz)   
 
 ## Demos
 - [Anansi Wallet](https://aanansi.xyz/)   
