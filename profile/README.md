@@ -15,20 +15,20 @@
 - [Project Flow](#Project-Flow)
 - [Project Highlights](#Project-Highlights)
 - [Technologies Stack](#Technologies-Stack)
-- [Deployed Contract](#Deployed-Contract)
-- [ERC-4337 stack](#ERC-4337-stack)
+- [Deployed Contracts (Account Abstraction)](#Deployed-Contracts-(Account-Abstraction))
 - [Conclusion](#Conclusion)
+- [Envisioning the Future](#Envisioning-the-Future)
+- [Team](#Team)
+- [Demos](#Demos)
 ***
 
 ## Overview
 
-Anansi is a secure and user-friendly crypto wallet designed for the future. It eliminates private key management with secure passkey login and offers gas-free transactions (testnet), simplifying your crypto journey across multiple blockchains. Built on cutting-edge technology, Anansi leverages ERC-4337 standards, showcasing the power of Account Abstraction implemented on the Botanix blockchain (Bitcoin Layer 2).
-
+Anansi is a secure and user-friendly crypto wallet designed for the future. It eliminates private key management with secure passkey login and offers gas-free transactions (Botanix testnet), simplifying your crypto journey across multiple blockchains. Built on cutting-edge technology, Anansi leverages ERC-4337 standards, showcasing the power of Account Abstraction implemented on the Botanix blockchain (Bitcoin Layer 2).
 
 ## Architecture Diagram
 
 DIAGRAM
-
 
 ## Project Breakdown:
 
@@ -42,7 +42,6 @@ Our team implemented the ERC-4337 standard on the Botanix blockchain, enabling a
 
 The Anansi wallet is a user-facing application built on top of our ERC-4337 implementation. It provides a secure and intuitive interface for users to manage their crypto assets.
 
-
 ## Project Flow
 
 1. User creates a new wallet using a secure passkey login (no mnemonics needed).
@@ -50,15 +49,14 @@ The Anansi wallet is a user-facing application built on top of our ERC-4337 impl
 3. Transactions are processed through our ERC-4337 implementation on Botanix, ensuring security and efficiency.
 4. (Future) Users will be able to leverage Anansi's multi-chain support for transactions on additional blockchains.
 
-
 ## Project Highlights
 
 * Secure passkey login eliminates the need for managing private keys.
 * Gas-free transactions on the Botanix testnet (testnet).
 * Innovative implementation of ERC-4337 on the Botanix blockchain.
 * Multi-chain support planned for future iterations.
+* Recover smart account (Google OAuth 2.0)
 * Modern and minimalistic user interface.
-
 
 ## Technologies Stack:
 
@@ -66,11 +64,12 @@ The Anansi wallet is a user-facing application built on top of our ERC-4337 impl
 * Turnkey (Secure private key storage)
 * Next.js (Front-end development framework)
 
+## Deployed Contracts (Account Abstraction)
+[Entrypoint](https://blockscout.botanixlabs.dev/address/0x0000000071727De22E5E9d8BAf0edAc6f37da032)
+[Account Factory](https://blockscout.botanixlabs.dev/address/0x4729CCf7a9c43F83A3cdc7B666DBb53adc9cc851)
+[All Inclusive Paymaster](https://blockscout.botanixlabs.dev/address/0xc523FF9698230096d4aDa45D52FA0063E109618D)
 
-## Deployed Contract
-
-## ERC-4337 stack
-
+User operation bundler: [Anansi Bundler](https://bundler.aanansi.xyz/)
 
 ## Conclusion
 
@@ -83,5 +82,9 @@ The Anansi team is committed to continuous innovation. We plan to expand Anansi'
 
 
 ## Team
+[Sam](https://github.com/meisamtaher)
+[Maxg](https://github.com/0xmaxyz)
 
-[Provide information about your team members and their roles]
+## Demos
+- [Anansi Wallet](https://aanansi.xyz/)
+- [Youtube](https://youtu.be/xxxxxxxxxxx)
