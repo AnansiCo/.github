@@ -1,3 +1,9 @@
+![Botanix](https://img.shields.io/badge/Botanix-black)
+![Bitcoin](https://img.shields.io/badge/Bitcoin-orange)
+
+<p align="center"><img src="https://github.com/AnansiCo/.github/blob/main/profile/logo.png?raw=true" width="250" height="250"></p>
+
+
 ## Anansi: The Secure and Seamless Crypto Wallet for the Future
 
 # Table of Contents
