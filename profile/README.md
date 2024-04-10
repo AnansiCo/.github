@@ -112,7 +112,7 @@ Ready to explore the future of crypto wallets? Here's how to get started with An
 
 **[Entrypoint - 0x0000000071727De22E5E9d8BAf0edAc6f37da032](https://blockscout.botanixlabs.dev/address/0x0000000071727De22E5E9d8BAf0edAc6f37da032)**   
 
-**[Account Factory - 0x4729CCf7a9c43F83A3cdc7B666DBb53adc9cc851](https://blockscout.botanixlabs.dev/address/0x4729CCf7a9c43F83A3cdc7B666DBb53adc9cc851)**   
+**[Account Factory - 0xa3733c15CE4Af3D9976016a2F2aa8f920c54c4ce](https://blockscout.botanixlabs.dev/address/0xa3733c15CE4Af3D9976016a2F2aa8f920c54c4ce)**   
 
 **[All Inclusive Paymaster - 0xc523FF9698230096d4aDa45D52FA0063E109618D](https://blockscout.botanixlabs.dev/address/0xc523FF9698230096d4aDa45D52FA0063E109618D)**   
 
